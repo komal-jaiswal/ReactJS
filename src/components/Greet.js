@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { Children } from 'react'
 
 // function Greet(){
 //     return <h1>hello Komal</h1>
 // }
 
 //using arrow function
-const Greet = (props) => {
-    console.log(props);
+const Greet = ({ name, heroName, Children }) => {
+    //one more way to destructoring props 
+    //const {name,heroName}=props
     return (
         <div>
-            <h1>Hello {props.name} {props.heroName}</h1>
-            {props.children}
+            <h1>Hello {name} {heroName}</h1>
+            {Children}
         </div>
     )
 }

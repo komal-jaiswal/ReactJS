@@ -10,18 +10,19 @@ import Counter from './components/Counter'
 function App() {
   return (
     <div className="App">
- <Message></Message>
- <Counter></Counter>
-      {/* <Greet name="Bruce" heroName="Batman">
+      <Message></Message>
+      <Counter></Counter>
+      <Greet name="Bruce" heroName="Batman">
         <p>this is children</p>
       </Greet>
-      <Greet name="Clcrk" heroName="Superman">
+      <Welcome name="Clcrk" heroName="Superman"></Welcome>
+      {/*<Greet name="Clcrk" heroName="Superman">
         <button>button</button>
       </Greet>
       <Greet name="Diana" heroName="Wonder womon"></Greet>
       <Welcome name="Bruce" heroName="Batman">
         </Welcome> 
-        <Welcome name="Clcrk" heroName="Superman"></Welcome>
+        
         <Welcome  name="Diana" heroName="Wonder womon"></Welcome>
       <Hello></Hello> */}
     </div>
