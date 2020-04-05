@@ -9,20 +9,22 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick'
 import EventBinding from './components/EventBinding'
+import ParentComponent from './components/ParentComponent';
 
 
 function App() {
   return (
     <div className="App">
-      <FunctionClick></FunctionClick>
-      <Message></Message>
+      <ParentComponent></ParentComponent>
+      {/* <FunctionClick></FunctionClick> 
+       <Message></Message>
       <Counter></Counter>
       <ClassClick></ClassClick>
       <EventBinding></EventBinding>
       <Greet name="Bruce" heroName="Batman">
         <p>this is children</p>
       </Greet>
-      <Welcome name="Clcrk" heroName="Superman"></Welcome>
+      <Welcome name="Clcrk" heroName="Superman"></Welcome> 
       {/*<Greet name="Clcrk" heroName="Superman">
         <button>button</button>
       </Greet>
