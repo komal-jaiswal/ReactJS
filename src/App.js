@@ -8,6 +8,7 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick'
+import EventBinding from './components/EventBinding'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Message></Message>
       <Counter></Counter>
       <ClassClick></ClassClick>
+      <EventBinding></EventBinding>
       <Greet name="Bruce" heroName="Batman">
         <p>this is children</p>
       </Greet>
