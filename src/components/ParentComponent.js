@@ -9,8 +9,8 @@ class ParentComponent extends Component {
         }
        this.clickHandler=this.clickHandler.bind(this)
     }
-    clickHandler() {
-        alert(this.state.greet)
+    clickHandler(childName) {
+        alert(`Hello ${this.state.greet} from ${childName}`)
     }
 
     render() {

@@ -4,7 +4,7 @@ function ChildComponent(props){
    
     return(
         <div>
-            <button onClick={props.handler}>Click</button>
+            <button onClick={()=>props.handler('child')}>Click</button>
         </div>
     )
 }
