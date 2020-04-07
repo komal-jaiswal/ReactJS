@@ -15,14 +15,15 @@ import UserList from './components/UserList';
 import Stylesheet from './components/Stylesheet';
 import './AppStyles.css';
 import styles from './AppStyles.module.css'
-
+import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
-      <h1 className="error">Error</h1>
+      <Form></Form>
+      {/* <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1>
-      <Stylesheet primary={true}></Stylesheet>
+      <Stylesheet primary={true}></Stylesheet> */}
       {/*<UserList></UserList>
       <UserGreeting></UserGreeting>
      <ParentComponent></ParentComponent>
