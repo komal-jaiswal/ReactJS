@@ -16,10 +16,12 @@ import Stylesheet from './components/Stylesheet';
 import './AppStyles.css';
 import styles from './AppStyles.module.css'
 import Form from './components/Form'
+import LifecycleA from './components/LifecysyleA'
 
 function App() {
   return (
     <div className="App">
+      <LifecycleA></LifecycleA>
       <Form></Form>
       {/* <h1 className="error">Error</h1>
       <h1 className={styles.success}>Success</h1>
