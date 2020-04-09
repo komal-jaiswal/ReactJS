@@ -20,12 +20,14 @@ import LifecycleA from './components/LifecysyleA'
 import Fragment from './components/Fragment'
 import Table from './components/Table';
 import ParentCompo from './components/ParentCompo'
+import RefDemo from './components/RefDemo';
 
 function App() {
   return (
     <div className="App">
-      <ParentCompo></ParentCompo>
-      {/* <Table></Table>
+      <RefDemo></RefDemo>
+      {/*<ParentCompo></ParentCompo>
+       <Table></Table>
       <Fragment></Fragment> */}
       {/* <LifecycleA></LifecycleA>
       <Form></Form> */}
