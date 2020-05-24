@@ -9,8 +9,10 @@ class UserGreeting extends Component {
     render() {
         //the fourth approach is short circut operator
         return this.state.isLoggedin && <div>Hello Komal Jaiswal</div>
+        
         //the third approach is using ternaary operator
         //return this.state.isLoggedin ? <div>Hello Komal</div> : <div>Hello Guest</div>
+
         //this is element varriable approach
         // let message;
         // if(this.state.isLoggedin){
@@ -19,11 +21,12 @@ class UserGreeting extends Component {
         //     message=<div>Hello Guest</div>
         // }
         // return <div>{message}</div>
+
         //this first approach for rendering the data
         // if (this.state.isLoggedin) {
         //     return <div>Hello Komal</div>
         // } else {
-        //    return+
+        //    return
         //     <div>Hello Guest</div>
         // }
     }

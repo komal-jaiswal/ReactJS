@@ -1,8 +1,9 @@
 import React from 'react'
 import Person from './Person'
+
 function UserList() {
     const names = ["Bruce", "Clark", "Daina"];
-const nameList = names.map((name,index) => <h2 key={index}>{index}   {name}</h2>)
+    const nameList = names.map((name, index) => <h2 key={index}>{index}   {name}</h2>)
 
     const person = [
         {

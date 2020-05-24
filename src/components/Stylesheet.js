@@ -4,8 +4,7 @@ import './myPrimary.css'
 function Stylesheet({primary}) {
     let className=primary? 'primary' : ''
     const textDecorate={
-        fontSize:'24px',
-        
+        fontSize:'24px',       
         color:'purple',
        'text-decoration': 'overline'
     }
